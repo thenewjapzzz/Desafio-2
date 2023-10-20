@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block header %}
+<head>
+    <title>Contatos</title>
+</head>
+<body background="../static/fundo2.png">
+<main>
+    <h2>Entre em contato</h2>
+    <br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi delectus. </p>
+    <br>
+    <hr>
+    <br>
+    <form>
+        <label for="campo_email">Seu e-mail:</label> <br>
+        <input id="campo_email" type="email"> <!--email-->
+        <br><label for="campo_assunto">Assunto:</label><br>
+        <input id="campo_assunto" type="text"><br> <!--assunto-->
+        <label for="descrição">Descrição:</label>
+        <br><textarea nome="descrição"></textarea>
+        <br><input type="submit" value="Entrar">
+    </form>
+</main>
+<br><br>
+<footer>
+    <h4>Todos os direitos reservados</h4>
+</footer>
+</body>
+</html>
+{% endblock %}
